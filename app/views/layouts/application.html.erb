@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Resume</title>
+    <title>Seulki Oh Resume</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,154 @@
   </head>
 
   <body>
+    <header class="row">
+      <div class="col-3">
+
+        <%= link_to root_path, class: 'logo' do %>
+        <div class="logo" alt="logo">
+          <%= image_tag 'jlogo1.png', class: 'img-fluid' %>
+        </div>
+        <% end %>
+
+      </div>
+      <div class="col-4">
+        <h1>Seulki (Jenny) Oh</h1>
+      </div>
+
+      <div class="col-5">
+        <%= link_to 'About', about_path, class: 'about' %>
+      </div>
+
+      <div class="col-5">
+        <%= link_to 'Contact', contact_path, class: 'contact' %>
+      </div>
+
+    <div class="text-center">
+        <div class="myPic" alt="Seulki's Picture">
+         <%= image_tag 'myPic.JPG', class: 'img-fluid' %>
+       </div>
+   </div>
+
+    </header>
+
+
+    <br class="clear" />
+
+    <div class="col-12 col-sm-7 offset-sm-1">
+      <h2 class="text-center">Career objective</h2>
+      <br />
+      <p class="main_p">
+        Seeking an entry-level Web Developer position where I can utilize my strong developing and designing skills towards the growth and development of the organization.
+      </p>
+    </div>
+  </div>
+
+  <br class="clear" />
+
+    <div class="col-12 col-sm-7 offset-sm-1">
+      <h2 class="text-center">EXPERIENCE</h2>
+      <br />
+      <p class="main_p">
+        <strong>YELP CLONE PROJECTS 2019</strong>
+
+      <ul class="ul_main">
+        <li>Built a Yelp Clone that integrates with the Google Map API and includes features user comments, star ratings, image uploading and user authentication.
+
+        <li>Created web application using the Ruby on Rails framework, HTML and CSS.
+      </ul>
+      </p>
+    </div>
+  </div>
+
+  <br class="clear" />
+
+    <div class="col-12 col-sm-7 offset-sm-1">
+      <p class="main_p">
+        <strong>METIF KOREA WEBSITE 2019 - www.metifkorea.shop</strong>
+      <ul class="ul_main">
+      <li>Designed a consumer friendly Hair Cosmetics & Accessory website using CMS ( Content Management System).
+
+      <li>Maintained website using FTP file management and Go Daddy maintenance and web domain/hosting.
+
+      <li>Performed multiple assignments under pressure and consistently met deadlines given.
+      </ul>
+      </p>
+    </div>
+  </div>
+
+   <br class="clear" />
+
+    <div class="col-12 col-sm-7 offset-sm-1">
+      <p class="main_p">
+        <strong>PURE KARAOKE WEBSITE 2019 - purekaraoke.club</strong>
+      <ul class="ul_main">
+      <li>Developed website using HTML, CSS, JavaScript and jQuery
+      and created reusable components that can be easily used
+      infuture projects.
+
+      <li>Developed and designed custom themes to improve
+      effectiveness and usability of website.
+
+      <li>Worked with existing application to convert static layout
+      into responsive layout for various devices.
+      </ul>
+      </p>
+    </div>
+  </div>
+
+   <br class="clear" />
+
+    <div class="col-12 col-sm-7 offset-sm-1">
+      <p class="main_p">
+        <strong>KOREA TOURISM ORGANIZATION Incheon Airport 2012-13</strong>
+      <ul class="ul_main">
+      <li>Managed duty free goods and customs declaration.
+
+      <li>Communicated with travelers effectively.
+
+      <li>Greeted and assisted customers in a friendly and timely manner.
+      <li>Adept at working in an fast pace environment.
+
+      </ul>
+      </p>
+    </div>
+  </div>
+
+  <br class="clear" />
+
+    <div class="col-12 col-sm-7 offset-sm-1">
+      <p class="main_p">
+        <strong>EDUCATION</strong>
+      <ul class="ul_main">
+        University of California Berkeley Extention - 2019-2020
+      <li>Coding Boot Camps : Full-Stack Web Development
+        Wake Tech Community College Web Development - 2019
+      <li>Coding Boot Camps : Front-End Web Development
+        Baekseok University in South Korea - 2008 - 2013
+      <li>The Bachelors of Arts in Tourism
+
+      </ul>
+      </p>
+    </div>
+  </div>
+
+    <br class="clear" />
+s
+
+
+    <div class="container">
     <%= yield %>
+    </div>
+
+  <br class="clear" />  
+  <br class="clear" />
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <p class="text-muted">Designed by Seulki Oh 2019</p>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>

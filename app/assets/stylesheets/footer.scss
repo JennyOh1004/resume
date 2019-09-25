@@ -1,0 +1,23 @@
+/* Sticky footer style */
+
+@import url('https://fonts.googleapis.com/css?family=Armata|Hind+Vadodara|Montserrat+Alternates|PT+Mono|Varela&display=swap');
+
+html{
+	position: relative;
+	min-height: 100%;
+}
+
+body{
+	margin-bottom: 60px;
+
+}
+
+.footer{
+	position: absolute;
+	bottom:0;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-family: 'Hind Vadodara', sans-serif;
+	border-top: 1px solid #dfdfdf;
+}

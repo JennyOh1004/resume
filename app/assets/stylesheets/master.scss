@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Armata|Hind+Vadodara|Montserrat+Alternates|PT+Mono|Varela&display=swap');
+
+html, body{
+	margin:0;
+	padding: 0;
+
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Armata', sans-serif;
+	letter-spacing: 2px;
+	font-size: 40px;
+	margin-top: -30px;
+}
+
+h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Armata', sans-serif;
+	letter-spacing: 2px;
+	padding-top: 70px;
+	padding-bottom: 10px;
+	border-top: 1px solid #dfdfdf;
+}
+
+.main_p{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Armata', sans-serif;
+	letter-spacing: 2px;
+	padding-top: 0px;
+	padding-bottom: 50px;
+	margin-left:100px;
+	margin-right: 100px;
+}
+
+.ul_main{
+	text-align:center;
+	font-family: 'Armata', sans-serif;
+	letter-spacing: 2px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-left:100px;
+	margin-right: 100px;
+
+
+}
+
+.name{
+	background-color: #E91E63;
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	text-transform: uppercase;
+}
+
+.clear{
+	clear: both;
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.logo img{
+	width: 50px;
+	height:60px;
+	margin: 20px;
+}
+
+
+.logo:hover{
+	text-decoration: none;
+}
+
+.about, .contact{
+	float: right;
+	margin: 20px;
+	font-size: 23px;
+	text-transform: uppercase;
+	font-family: 'Armata', sans-serif;
+	letter-spacing: 2px;
+	color: #E91E63;
+}
+
+.about:hover, .contact:hover{
+	color: #000;
+	transition: all 0.3s linear;
+}
+
+li{
+	margin-top:10px;
+}
+
+.myPic, img{
+	
+	margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 350px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
