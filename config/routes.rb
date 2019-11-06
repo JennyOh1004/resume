@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  root 'resumes#index'
-  get 'about', to: 'resumes#about'
-  get 'contact', to: 'resumes#contact'
+  root 'experiences#index'
+  get 'about', to: 'experiences#about'
+  get 'contact', to: 'experiences#contact'
+  resources :experiences
 
 end

@@ -1,3 +1,4 @@
+@import 'bootstrap';
 @import url('https://fonts.googleapis.com/css?family=Armata|Hind+Vadodara|Montserrat+Alternates|PT+Mono|Varela&display=swap');
 
 html, body{
@@ -12,7 +13,8 @@ h1{
 	font-family: 'Armata', sans-serif;
 	letter-spacing: 2px;
 	font-size: 40px;
-	margin-top: -30px;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 h2{
@@ -23,6 +25,8 @@ h2{
 	padding-top: 70px;
 	padding-bottom: 10px;
 	border-top: 1px solid #dfdfdf;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 .main_p{
@@ -32,20 +36,16 @@ h2{
 	letter-spacing: 2px;
 	padding-top: 0px;
 	padding-bottom: 50px;
-	margin-left:100px;
-	margin-right: 100px;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 .ul_main{
-	text-align:center;
+	text-align: center;
 	font-family: 'Armata', sans-serif;
 	letter-spacing: 2px;
 	padding-top: 10px;
 	padding-bottom: 20px;
-	margin-left:100px;
-	margin-right: 100px;
-
-
 }
 
 .name{
@@ -63,15 +63,12 @@ h2{
 	clear: both;
 }
 
-a{
-	text-decoration: none;
-	cursor: pointer;
-}
+
 
 .logo img{
 	width: 50px;
-	height:60px;
-	margin: 20px;
+	height: 60px;
+	margin: 10px;
 }
 
 
@@ -79,27 +76,8 @@ a{
 	text-decoration: none;
 }
 
-.about, .contact{
-	float: right;
-	margin: 20px;
-	font-size: 23px;
-	text-transform: uppercase;
-	font-family: 'Armata', sans-serif;
-	letter-spacing: 2px;
-	color: #E91E63;
-}
 
-.about:hover, .contact:hover{
-	color: #000;
-	transition: all 0.3s linear;
-}
-
-li{
-	margin-top:10px;
-}
-
-.myPic, img{
-	
+.img-fluid{
 	margin-left: auto;
     margin-right: auto;
     width: 300px;
@@ -108,3 +86,57 @@ li{
     margin-bottom: 80px;
 }
 
+a{
+	margin: 20px;
+	font-size: 23px;
+	text-transform: uppercase;
+	font-family: 'Armata', sans-serif;
+	letter-spacing: 2px;
+	color: #E91E63;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+a:hover{
+	color: #000;
+	transition: all 0.3s linear;
+	text-decoration: none;
+}
+
+
+.nav-link{
+	display: inline;
+}
+
+.footer{
+	padding-top: 30px;
+}
+
+.btn{
+	float:right;
+	margin-bottom: 60px;
+}
+
+.show_1{
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Armata', sans-serif;
+	letter-spacing: 2px;
+	margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+
+.show{
+	text-align: center;
+	font-family: 'Armata', sans-serif;
+	letter-spacing: 2px;
+	margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+
+li{
+	list-style-type:none;
+}
